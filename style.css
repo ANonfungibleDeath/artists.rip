@@ -1,0 +1,41 @@
+body{
+  background: #111;
+  color: #EEE;
+  font-family: "JustusOldstyle", Garamond, serif;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+h1 {
+  color: #EEEEE0;
+  font-size: min(12vh, 12vw);
+}
+
+pre {
+  font-family: monospace;
+  text-align: left;
+}
+
+@media screen and (min-aspect-ratio: 8/5) {
+  header p {
+    max-width: 40%;
+    margin: auto;
+  }
+  footer p {
+    font-size: 0.6em;
+    max-width: 75%;
+    margin: auto;
+    font-family: sans-serif;
+  }
+  .boneyard {
+    max-width: 75%;
+    margin: auto;
+  }
+}
+
+.boneyard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
