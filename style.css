@@ -16,6 +16,13 @@ pre {
   text-align: left;
 }
 
+a {
+  color: #88F;
+}
+a:hover {
+  color: #BBF;
+}
+
 @media screen and (min-aspect-ratio: 8/5) {
   header p {
     max-width: 40%;
