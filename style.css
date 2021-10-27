@@ -3,7 +3,6 @@ body{
   color: #EEE;
   font-family: "JustusOldstyle", Garamond, serif;
   text-align: center;
-  font-size: 1.2em;
 }
 
 h1 {
@@ -12,8 +11,9 @@ h1 {
 }
 
 pre {
-  font-family: monospace;
-  text-align: left;
+  font-family: "FiraMonoRegular",courier new, monospace;
+  text-align: justify;
+  font-size: 0.8em;
 }
 
 a {
@@ -29,15 +29,21 @@ a:hover {
     margin: auto;
   }
   footer p {
-    font-size: 0.6em;
     max-width: 75%;
     margin: auto;
-    font-family: sans-serif;
   }
   .boneyard {
     max-width: 75%;
     margin: auto;
   }
+  body{
+    font-size: 1.2em;
+  }
+}
+
+footer p {
+  font-size: 0.6em;
+  font-family: sans-serif;
 }
 
 .boneyard {
